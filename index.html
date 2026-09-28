@@ -139,24 +139,28 @@
             </div>
         </div>
         
-        <!-- Floating Image -->
+        <!-- Right Column: Text & Image -->
         <div class="flex-1 w-full max-w-md mx-auto reveal delay-200">
-            <div class="relative w-full aspect-[4/5] sm:aspect-[3/4] animate-float">
+            
+            <!-- Beautiful Text Block Above the Image -->
+            <div class="mb-8 text-center px-4 animate-float">
+                <span class="block text-[#7C9082] font-playfair text-xl md:text-2xl mb-3 italic">
+                    <span class="en">"Nurturing resilience in every unique mind."</span>
+                    <span class="el">"Καλλιεργώντας την ανθεκτικότητα σε κάθε μοναδικό μυαλό."</span>
+                </span>
+                <h3 class="text-xs text-stone-500 font-bold tracking-[0.15em] uppercase">
+                    <span class="en">Sofia Bouranta, MSc <br> Child & Adolescent Psychologist</span>
+                    <span class="el">Σοφια Μπουραντα, MSc <br> Ψυχολογος Παιδιου & Εφηβου</span>
+                </h3>
+            </div>
+
+            <!-- Floating Image -->
+            <div class="relative w-full aspect-[4/5] sm:aspect-[3/4] animate-float" style="animation-delay: 0.5s;">
                 <!-- Subtle background decorative element -->
                 <div class="absolute -inset-2 bg-[#7C9082]/10 rounded-t-[10rem] rounded-b-3xl transform rotate-2"></div>
                 
                 <!-- Profile Image: IMG_0585.jpeg -->
-                <!-- Set to relative z-10 for layering -->
                 <img src="IMG_0585.jpeg" alt="Sofia Bouranta" class="relative z-10 shadow-2xl object-cover w-full h-full object-top rounded-t-[10rem] rounded-b-3xl" onerror="this.src='https://placehold.co/500x650/e7e5e4/78716c?text=Sofia+Bouranta'">
-                
-                <!-- Subtle black overlay gradient for better text readability at the bottom -->
-                <div class="absolute inset-x-0 bottom-0 h-1/3 z-15 bg-gradient-to-t from-black/50 to-transparent rounded-b-3xl"></div>
-                
-                <!-- Beautiful Text Overlay Centered at Bottom -->
-                <div class="absolute bottom-6 left-0 right-0 z-20 text-white font-playfair tracking-wide text-center">
-                    <span class="en block text-2xl font-medium">MSc Psychologist</span>
-                    <span class="el block text-2xl font-medium">MSc Ψυχολόγος</span>
-                </div>
             </div>
         </div>
     </section>
@@ -277,7 +281,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="bg-white py-32 relative border-t border-stone-200/50">
-        <div class="max-w-33xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div class="max-w-3xl mx-auto px-6 sm:px-8 lg:px-12">
             <div class="text-center mb-16 reveal">
                 <h2 class="text-3xl lg:text-4xl text-[#7C9082] mb-6 font-playfair">
                     <span class="en">Get in Touch</span>
